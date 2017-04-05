@@ -1,0 +1,348 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		078BEC541E8F51B9000B7C73 /* RCTStarRatingViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 078BEC531E8F51B9000B7C73 /* RCTStarRatingViewManager.m */; };
+		078BEC771E8F7A77000B7C73 /* RCTStarRatingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 078BEC761E8F7A77000B7C73 /* RCTStarRatingView.m */; };
+		07B0E7561E84CD3A00A52441 /* GJSNativeModuleExample.m in Sources */ = {isa = PBXBuildFile; fileRef = 07B0E7551E84CD3A00A52441 /* GJSNativeModuleExample.m */; };
+		07B0E7571E84CD3A00A52441 /* GJSNativeModuleExample.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 07B0E7541E84CD3A00A52441 /* GJSNativeModuleExample.h */; };
+		07B0E77F1E84D38E00A52441 /* GJSNativeModuleTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 07B0E77E1E84D38E00A52441 /* GJSNativeModuleTest.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		075A730C1E8BAAF0000E179F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 075A73081E8BAAF0000E179F /* HCSStarRatingView.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = B6AF40891B4FE3260060F1B8;
+			remoteInfo = HCSStarRatingView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		07B0E74F1E84CD3A00A52441 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				07B0E7571E84CD3A00A52441 /* GJSNativeModuleExample.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		075A73081E8BAAF0000E179F /* HCSStarRatingView.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = HCSStarRatingView.xcodeproj; path = "HCSStarRatingView-master/HCSStarRatingView.xcodeproj"; sourceTree = "<group>"; };
+		078BEC521E8F51B9000B7C73 /* RCTStarRatingViewManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCTStarRatingViewManager.h; sourceTree = "<group>"; };
+		078BEC531E8F51B9000B7C73 /* RCTStarRatingViewManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCTStarRatingViewManager.m; sourceTree = "<group>"; };
+		078BEC751E8F7A77000B7C73 /* RCTStarRatingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCTStarRatingView.h; sourceTree = "<group>"; };
+		078BEC761E8F7A77000B7C73 /* RCTStarRatingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCTStarRatingView.m; sourceTree = "<group>"; };
+		078BEC781E8F8441000B7C73 /* RCTStarRatingView.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = RCTStarRatingView.bundle; sourceTree = "<group>"; };
+		07B0E7511E84CD3A00A52441 /* libGJSNativeModuleExample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libGJSNativeModuleExample.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		07B0E7541E84CD3A00A52441 /* GJSNativeModuleExample.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GJSNativeModuleExample.h; sourceTree = "<group>"; };
+		07B0E7551E84CD3A00A52441 /* GJSNativeModuleExample.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GJSNativeModuleExample.m; sourceTree = "<group>"; };
+		07B0E77D1E84D38E00A52441 /* GJSNativeModuleTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GJSNativeModuleTest.h; sourceTree = "<group>"; };
+		07B0E77E1E84D38E00A52441 /* GJSNativeModuleTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GJSNativeModuleTest.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		07B0E74E1E84CD3A00A52441 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		075A73071E8BAAB5000E179F /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				075A73081E8BAAF0000E179F /* HCSStarRatingView.xcodeproj */,
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		075A73091E8BAAF0000E179F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				075A730D1E8BAAF0000E179F /* HCSStarRatingView.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		077BA35F1E8E061200671FEC /* category */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = category;
+			sourceTree = "<group>";
+		};
+		07B0E7481E84CD3A00A52441 = {
+			isa = PBXGroup;
+			children = (
+				077BA35F1E8E061200671FEC /* category */,
+				075A73071E8BAAB5000E179F /* Libraries */,
+				07B0E7531E84CD3A00A52441 /* GJSNativeModuleExample */,
+				07B0E7521E84CD3A00A52441 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		07B0E7521E84CD3A00A52441 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				07B0E7511E84CD3A00A52441 /* libGJSNativeModuleExample.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		07B0E7531E84CD3A00A52441 /* GJSNativeModuleExample */ = {
+			isa = PBXGroup;
+			children = (
+				07B0E7541E84CD3A00A52441 /* GJSNativeModuleExample.h */,
+				07B0E7551E84CD3A00A52441 /* GJSNativeModuleExample.m */,
+				07B0E77D1E84D38E00A52441 /* GJSNativeModuleTest.h */,
+				07B0E77E1E84D38E00A52441 /* GJSNativeModuleTest.m */,
+				078BEC521E8F51B9000B7C73 /* RCTStarRatingViewManager.h */,
+				078BEC531E8F51B9000B7C73 /* RCTStarRatingViewManager.m */,
+				078BEC751E8F7A77000B7C73 /* RCTStarRatingView.h */,
+				078BEC761E8F7A77000B7C73 /* RCTStarRatingView.m */,
+				078BEC781E8F8441000B7C73 /* RCTStarRatingView.bundle */,
+			);
+			path = GJSNativeModuleExample;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		07B0E7501E84CD3A00A52441 /* GJSNativeModuleExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07B0E75A1E84CD3A00A52441 /* Build configuration list for PBXNativeTarget "GJSNativeModuleExample" */;
+			buildPhases = (
+				07B0E74D1E84CD3A00A52441 /* Sources */,
+				07B0E74E1E84CD3A00A52441 /* Frameworks */,
+				07B0E74F1E84CD3A00A52441 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GJSNativeModuleExample;
+			productName = GJSNativeModuleExample;
+			productReference = 07B0E7511E84CD3A00A52441 /* libGJSNativeModuleExample.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		07B0E7491E84CD3A00A52441 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = forp;
+				TargetAttributes = {
+					07B0E7501E84CD3A00A52441 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = Q435J5Y6RX;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 07B0E74C1E84CD3A00A52441 /* Build configuration list for PBXProject "GJSNativeModuleExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 07B0E7481E84CD3A00A52441;
+			productRefGroup = 07B0E7521E84CD3A00A52441 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 075A73091E8BAAF0000E179F /* Products */;
+					ProjectRef = 075A73081E8BAAF0000E179F /* HCSStarRatingView.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				07B0E7501E84CD3A00A52441 /* GJSNativeModuleExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		075A730D1E8BAAF0000E179F /* HCSStarRatingView.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = HCSStarRatingView.framework;
+			remoteRef = 075A730C1E8BAAF0000E179F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXSourcesBuildPhase section */
+		07B0E74D1E84CD3A00A52441 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07B0E7561E84CD3A00A52441 /* GJSNativeModuleExample.m in Sources */,
+				078BEC771E8F7A77000B7C73 /* RCTStarRatingView.m in Sources */,
+				078BEC541E8F51B9000B7C73 /* RCTStarRatingViewManager.m in Sources */,
+				07B0E77F1E84D38E00A52441 /* GJSNativeModuleTest.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		07B0E7581E84CD3A00A52441 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		07B0E7591E84CD3A00A52441 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		07B0E75B1E84CD3A00A52441 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = Q435J5Y6RX;
+				FRAMEWORK_SEARCH_PATHS = "";
+				HEADER_SEARCH_PATHS = (
+					"$(SRCROOT)/../../react-native/React/**",
+					"$(SRCROOT)/../../react-native/Libraries/**",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		07B0E75C1E84CD3A00A52441 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = Q435J5Y6RX;
+				FRAMEWORK_SEARCH_PATHS = "";
+				HEADER_SEARCH_PATHS = (
+					"$(SRCROOT)/../../react-native/React/**",
+					"$(SRCROOT)/../../react-native/Libraries/**",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		07B0E74C1E84CD3A00A52441 /* Build configuration list for PBXProject "GJSNativeModuleExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07B0E7581E84CD3A00A52441 /* Debug */,
+				07B0E7591E84CD3A00A52441 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		07B0E75A1E84CD3A00A52441 /* Build configuration list for PBXNativeTarget "GJSNativeModuleExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07B0E75B1E84CD3A00A52441 /* Debug */,
+				07B0E75C1E84CD3A00A52441 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 07B0E7491E84CD3A00A52441 /* Project object */;
+}
