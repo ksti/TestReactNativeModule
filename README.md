@@ -1,5 +1,5 @@
 # TestReactNativeModule
-test ios native module for react-native. (封装ios原生组件给rn，常用的东西基本都试验了。)
+test ios native module for react-native. (封装ios原生组件给rn，常用的技巧基本都试验了。)
 
 # Usage
 this is a demo for testing ios native module for react-native. `(ios only)`
