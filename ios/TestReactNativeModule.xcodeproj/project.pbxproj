@@ -31,8 +31,8 @@
 		0769E4221E95D74C00B25398 /* IQKeyboardManager.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 0769E4121E95D74C00B25398 /* IQKeyboardManager.bundle */; };
 		0769E4261E95D76400B25398 /* IQKeyboardHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 0769E4251E95D76400B25398 /* IQKeyboardHandler.m */; };
 		076ADC651E8D15F6008D36D4 /* libGJSNativeModuleExample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 076ADC641E8D02CC008D36D4 /* libGJSNativeModuleExample.a */; };
-		077ED37B1E947C7400DDB9B6 /* HCSStarRatingView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 077ED35C1E94769F00DDB9B6 /* HCSStarRatingView.framework */; };
-		077ED37C1E947C7400DDB9B6 /* HCSStarRatingView.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 077ED35C1E94769F00DDB9B6 /* HCSStarRatingView.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		0784C4D31E97461A00699DBE /* HCSStarRatingView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0784C4D21E97461A00699DBE /* HCSStarRatingView.framework */; };
+		0784C4D41E97461A00699DBE /* HCSStarRatingView.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0784C4D21E97461A00699DBE /* HCSStarRatingView.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		078BEC181E8F3BD0000B7C73 /* TestReactView.m in Sources */ = {isa = PBXBuildFile; fileRef = 078BEC141E8F3BD0000B7C73 /* TestReactView.m */; };
 		078BEC191E8F3BD0000B7C73 /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 078BEC161E8F3BD0000B7C73 /* TestViewController.m */; };
 		078BEC1A1E8F3BD0000B7C73 /* TestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 078BEC171E8F3BD0000B7C73 /* TestViewController.xib */; };
@@ -279,13 +279,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		077ED37D1E947C7400DDB9B6 /* Embed Frameworks */ = {
+		0784C4D51E97461A00699DBE /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				077ED37C1E947C7400DDB9B6 /* HCSStarRatingView.framework in Embed Frameworks */,
+				0784C4D41E97461A00699DBE /* HCSStarRatingView.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -339,6 +339,7 @@
 		0769E4251E95D76400B25398 /* IQKeyboardHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IQKeyboardHandler.m; sourceTree = "<group>"; };
 		076ADC5E1E8D02CC008D36D4 /* GJSNativeModuleExample.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = GJSNativeModuleExample.xcodeproj; path = "../node_modules/react-native-gjs-test-module/ios/GJSNativeModuleExample/GJSNativeModuleExample.xcodeproj"; sourceTree = "<group>"; };
 		077ED35C1E94769F00DDB9B6 /* HCSStarRatingView.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HCSStarRatingView.framework; path = "../../../../../../Library/Developer/Xcode/DerivedData/TestReactNativeModule-fkhhpkctnlucxdfwwdfgbuhaqywi/Build/Products/Debug-iphoneos/HCSStarRatingView.framework"; sourceTree = "<group>"; };
+		0784C4D21E97461A00699DBE /* HCSStarRatingView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = HCSStarRatingView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		078BEC131E8F3BD0000B7C73 /* TestReactView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TestReactView.h; path = TestReactNativeModule/TestReactView.h; sourceTree = "<group>"; };
 		078BEC141E8F3BD0000B7C73 /* TestReactView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TestReactView.m; path = TestReactNativeModule/TestReactView.m; sourceTree = "<group>"; };
 		078BEC151E8F3BD0000B7C73 /* TestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TestViewController.h; path = TestReactNativeModule/TestViewController.h; sourceTree = "<group>"; };
@@ -395,7 +396,7 @@
 				133E29F31AD74F7200F7D852 /* libRCTLinking.a in Frameworks */,
 				00C302E91ABCBA2D00DB3ED1 /* libRCTNetwork.a in Frameworks */,
 				139105C61AF99C1200B5F7CC /* libRCTSettings.a in Frameworks */,
-				077ED37B1E947C7400DDB9B6 /* HCSStarRatingView.framework in Frameworks */,
+				0784C4D31E97461A00699DBE /* HCSStarRatingView.framework in Frameworks */,
 				832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */,
 				00C302EA1ABCBA2D00DB3ED1 /* libRCTVibration.a in Frameworks */,
 				139FDEF61B0652A700C62182 /* libRCTWebSocket.a in Frameworks */,
@@ -729,6 +730,7 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
+				0784C4D21E97461A00699DBE /* HCSStarRatingView.framework */,
 				13B07FAE1A68108700A75B9A /* TestReactNativeModule */,
 				0769E3EB1E95D6F100B25398 /* libs */,
 				0769E4231E95D76400B25398 /* nativeModule */,
@@ -782,7 +784,7 @@
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
-				077ED37D1E947C7400DDB9B6 /* Embed Frameworks */,
+				0784C4D51E97461A00699DBE /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
