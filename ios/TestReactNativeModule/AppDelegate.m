@@ -22,12 +22,11 @@
   
 #ifdef DEBUG
   [[RCTBundleURLProvider sharedSettings] setDefaults];
-  [[RCTBundleURLProvider sharedSettings] setJsLocation:@"10.23.88.227"];
-  jsCodeLocation = [[RCTBundleURLProvider sharedSettings] jsBundleURLForBundleRoot:@"index.ios" fallbackResource:nil];
 #else
-  jsCodeLocation = [[RCTBundleURLProvider sharedSettings] jsBundleURLForBundleRoot:@"index.ios" fallbackResource:nil];
+  [[RCTBundleURLProvider sharedSettings] setJsLocation:@"10.23.88.227"];
 #endif
   
+  jsCodeLocation = [[RCTBundleURLProvider sharedSettings] jsBundleURLForBundleRoot:@"index.ios" fallbackResource:nil];
   //jsCodeLocation = [[NSBundle mainBundle] URLForResource:@"main" withExtension:@"jsbundle"];
 
   RCTRootView *rootView = [[RCTRootView alloc] initWithBundleURL:jsCodeLocation
