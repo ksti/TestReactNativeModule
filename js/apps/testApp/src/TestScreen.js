@@ -119,7 +119,7 @@ export default class TestScreen extends React.Component {
                 let result = await GJSTestModule.testRespondMethod(functionName);
 
                 if (result) {
-                    alert(functionName + ' can be responsed!');
+                    alert(result + ' can be responsed!');
                 }
             } catch (e) {
                 console.error(e);

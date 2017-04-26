@@ -16,11 +16,20 @@ import ChatScreen from './ChatScreen'
 import TestScreen from './TestScreen'
 import AddBooksComponentPage from './AddBooksComponentPage'
 
+import TestNavigatorScreen from './TestNavigatorScreen'
+
+/**
+ * Header is only available for StackNavigator.
+ */
+
 const SimpleApp = StackNavigator({
     Home: { screen: HomeScreen },
     Chat: { screen: ChatScreen },
     Test: { screen: TestScreen },
     TestAddBooks: { screen: AddBooksComponentPage },
+
+    // test navigator screens
+    TestNavigatorScreen: { screen: TestNavigatorScreen },
 });
 
 export default SimpleApp;

@@ -31,6 +31,10 @@ export default class HomeScreen extends React.Component {
                     title="To Test"
                 />
                 <Button
+                    onPress={() => navigate('TestNavigatorScreen')}
+                    title="To test navigattor"
+                />
+                <Button
                     onPress={() => navigate('TestAddBooks')}
                     title="To Test AddBooksComponentPage"
                 />
