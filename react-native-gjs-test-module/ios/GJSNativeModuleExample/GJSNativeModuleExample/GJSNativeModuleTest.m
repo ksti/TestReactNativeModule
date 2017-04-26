@@ -28,6 +28,8 @@
 #import "RCTUtils.h"
 #endif
 
+#define INVOKE_FAILED (@"xxx API invoke returns false.")
+
 #pragma mark - Test_NS_ENUM
 typedef NS_ENUM(NSInteger, Test_NS_ENUM) {
     TestEnumOne,
@@ -135,6 +137,7 @@ RCT_REMAP_METHOD(testRespondMethod,
         dispatch_after(dispatch_time(DISPATCH_TIME_NOW, 3.0 * NSEC_PER_SEC), dispatch_get_main_queue(), ^(void){
             NSLog(@"3s以后---");
             resolve(@YES);
+            //resolve(@[INVOKE_FAILED]);
         });
         //resolve(@YES);
     }
